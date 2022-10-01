@@ -1,0 +1,32 @@
+.main-cart-section{
+display: flex;
+margin-top: 55px;
+}
+.child-color-section{
+    width: 25%;
+    background-color: #FCF4F4;
+
+}
+.form-column-div {
+    width: 75%;
+    display: flex;
+    /* place-content: center; */
+    justify-content: center;
+}
+.button-div{
+    text-align-last: center;
+}
+.next_btn {
+    width: 35%;
+    padding: 13px 0;
+    border-radius: 39px;
+    margin-top: 42px;
+    background-color: #8D624C;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin-top: 38px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,101 @@
+.container{
+  display: flex;
+  margin-top: 90px;
+  place-content: center;
+}
+.container-h1{
+
+text-align: -webkit-center;
+font-weight: 100;
+}
+.front_card-p-tag
+{padding-left: 19px;
+  margin-block-end: 2px;
+}
+.user_email{
+  width: 99%;
+  padding: 14px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 23px;
+  background-color: #FCF4F4;
+}
+.password-input-div{
+  padding: 11px 38px;
+  padding-right: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 23px;
+  background-color: #FCF4F4;
+}
+.user_password{
+  border: none;
+    background-color: #FCF4F4;
+
+}
+.login_btn {
+  padding: 13px 134px;
+  border-radius: 39px;
+  margin-top: 42px;
+  background-color: #8D624C;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  margin-top: 38px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.Register-p-tag{
+  font-size: 18.5px;
+  text-align-last: center;
+
+
+}
+.registeration-link{
+  color: #8D624C;
+}
+.eye-icon{
+  margin-left: 50px;
+}
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 45px auto;
+  text-align: center;
+  font-weight: 100;
+
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 1.5px;
+  width: 130px;
+  background: #8D624C;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 1.5px;
+  width: 130px;
+  background: #8D624C;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.forgetpasword-link{
+  display: flex;
+  justify-content: end;
+  color: #8D624C;
+  margin-top: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+
