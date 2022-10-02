@@ -1,10 +1,18 @@
+.side-bar-logo{
+    height: auto;
+    max-width: 232px;
+    width: min(73vw, 355px);
+    padding-left: 23px;
+    margin: -23px -59px;
+}
+
 .main-cart-section{
 display: flex;
-margin-top: 55px;
 }
 .child-color-section{
     width: 25%;
     background-color: #FCF4F4;
+    z-index: 2;
 
 }
 .form-column-div {

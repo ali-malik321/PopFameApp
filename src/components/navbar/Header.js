@@ -46,7 +46,7 @@ const Header = () => {
             <NavLink className="navbar-items" to="/"><img src={messenger} alt="logo" className='dropdown-link-logo' />Messages</NavLink>
             <NavLink className="navbar-items" to="/"><img src={wallet} alt="logo" className='dropdown-link-logo' />Wallet</NavLink>
             <span></span>
-            <NavLink className="navbar-items" to="/"><img src={loginlogo} alt="logo" className='dropdown-link-logo logo-top-padding' />Login</NavLink>
+            <NavLink className="navbar-items" to="/login"><img src={loginlogo} alt="logo" className='dropdown-link-logo logo-top-padding' />Login</NavLink>
 
           </div>
         </div>

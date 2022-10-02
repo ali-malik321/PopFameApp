@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
+import logo from "../../../assets/globalAssets/POPFAMELOGO.svg"
 import { AiOutlineEye } from "react-icons/ai";
 import "./basicInformation.css"
 import { AiOutlineEyeInvisible } from "react-icons/ai";
@@ -35,6 +36,7 @@ const BasicInformation = () => {
     return (
         <div className='main-cart-section'>
             <div className='child-color-section'>
+                <NavLink to='/'><img src={logo} alt="logo" className='side-bar-logo'/></NavLink>
 
             </div>
 

@@ -34,7 +34,7 @@ const HeroSection = () => {
             <img className='BackgroundGroup-img2' src={GroupBackground} alt="logo" />
         </div>
       </div>
-      <div className='messages-global-div'>
+      <div style={{position:'fixed',zIndex:1, bottom: 10, right: 10}}>
      <Link to='/'><img  src={messages} alt="logo" /></Link>
       </div>
     </div>

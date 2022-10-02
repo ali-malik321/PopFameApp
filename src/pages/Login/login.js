@@ -67,7 +67,7 @@ const Login = () => {
             <h3 class="hr-lines"> OR </h3>
 
 
-            <p className='Register-p-tag'>Not a User <Link className='registeration-link' to='/'>Register</Link> From Email</p>
+            <p className='Register-p-tag'>Not a User <Link className='registeration-link' to='/signup'>Register</Link> From Email</p>
   </div>
     
 </div>
