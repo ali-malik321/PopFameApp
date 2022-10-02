@@ -11,27 +11,29 @@
 }
 
 .first-image-container{
-    width: 30%;
     height: auto;
-    margin-left: 25%;
+    margin-left: 29%;
+    width: 22%;
 }
 .first-homepage-container{
     position: relative;
 }
 .first-search {
     --tw-shadow: 8px 19px 32px 0px #0000003f;
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     background: #fff;
     border: 1px solid #aea6a6;
-    height: 36px;
     border-radius: 50px;
+    box-shadow: 0 0 #0000,0 0 #0000,var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    height: 37px;
+    left: 54%;
+    margin-top: 8%;
     padding: 10px 5px;
-    margin-top: 11%;
-    width: 428px;
     position: absolute;
     top: 3%;
-    left: 54%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 428px;
 }
 .first-search-img {
     width: 20px;
@@ -57,14 +59,13 @@
     font-size: 41px;
     font-weight: 500;
     text-align-last: center;
+    margin-block-start: 0;
 }
 
 
 /* carasol */
 
-.slick-slide:last-child {
-   width: 178px !important
-  }
+
 
 .slick-slider-inner-container{
     position: relative;
@@ -85,23 +86,23 @@
 
 }
 .inner-container-img-div .slick-slider-img {
-  width: 177px;
-  height: 318px;
+    height: 65vh;
+    width: 17vw;
 }
 .img-radius{
   border-radius: 4%;
 }
 
 .inner-container-text-div {
+    background: linear-gradient(rgba(0,0,0,.24),rgba(0,0,0,.18));
+    border-radius: 3%;
+    color: #fff;
+    left: 0;
     position: absolute;
     top: 1px;
-    left: 0px;
-    color: #fff;
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 18%));
-    width: 177px;
-    height: 318px;
-    border-radius: 3%;
-}
+    height: 65vh;
+    width: 17vw;
+} 
 .inner-container-text-div .slick-slider-p-tag{
 margin-left: 17px;
 }

@@ -72,7 +72,7 @@ const HomePage = () => {
 
 
   const secondCarasolsettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -80,7 +80,7 @@ const HomePage = () => {
   };
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
