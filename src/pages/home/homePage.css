@@ -17,8 +17,8 @@
     padding-top: 6%;
 }
 .wrapper {
-    padding: 100px 25px;
-    padding-bottom: 25px;
+        padding: 17vh 3vw; 
+           padding-bottom: 25px;
 }
 
 .hero-flex-section{
@@ -35,17 +35,16 @@
     position: relative;
 }
 
-.BackgroundGroup-img1{
-    width: 47%;
-    position: absolute;
-    margin-top: 2%;
+.BackgroundGroup-img1 {
     height: auto;
+    margin-top: 2%;
+    position: absolute;
+    width: 42%;
 }
-.BackgroundGroup-img2{
-    width: 73%;
-    padding-left: 75px;
-    padding-top: 58px;
-
+.BackgroundGroup-img2 {
+    padding-left: 7vw;
+    padding-top: 9vh;
+    width: 66%;
 }
 .search {
     --tw-shadow: 4px 4px 27px 0px #0000003f;

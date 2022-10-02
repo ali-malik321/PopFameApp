@@ -118,7 +118,7 @@ background-color: #fff;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0 20px;
+padding: 0px 30px;
 top:0;
 left:0;
 right:0;
