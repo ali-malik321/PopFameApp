@@ -12,7 +12,14 @@ import furnitureasseembly from "../../assets/sliderAssets/furnitureassembly.png"
 import moving from "../../assets/sliderAssets/moving.png"
 import Plumbing from "../../assets/sliderAssets/Plumbing.png"
 import lady2slider from "../../assets/sliderAssets/lady2slider.svg"
+import glassesman2slider from "../../assets/sliderAssets/glassesman2slider.svg"
+import boy2slider from "../../assets/sliderAssets/boy2slider.svg"
+
+
+
 import firstgroup from "../../assets/sliderAssets/firstgroup.png"
+import secondgroup from "../../assets/sliderAssets/secondgroup.png"
+import thirdgroup from "../../assets/sliderAssets/thirdgroup.png"
 
 import airbnd from "../../assets/sliderAssets/airbnd.svg"
 import automatic from "../../assets/sliderAssets/automatic.svg"
@@ -217,11 +224,11 @@ const HomePage = () => {
 
                   <div className='first-inner-carasol-component'>
                     <div className='first-inner-carasol-profile-section'>
-                      <span><img src={lady2slider} alt="logo" className='profile-section-img' /></span>
+                      <span><img src={glassesman2slider} alt="logo" className='profile-section-img' /></span>
                     </div>
                     <div className='first-inner-carasol-textandstar-section'>
-                      <span className='inner-carasol-text-span'>Emman</span>
-                      <span className='inner-carasol-star-span'><img src={firstgroup} alt="logo" className='' /></span>
+                      <span className='inner-carasol-text-span'>William</span>
+                      <span className='inner-carasol-star-span'><img src={secondgroup} alt="logo" className='' /></span>
                     </div>
                   </div>
 
@@ -236,11 +243,11 @@ const HomePage = () => {
 
                   <div className='first-inner-carasol-component'>
                     <div className='first-inner-carasol-profile-section'>
-                      <span><img src={lady2slider} alt="logo" className='profile-section-img' /></span>
+                      <span><img src={boy2slider} alt="logo" className='profile-section-img' /></span>
                     </div>
                     <div className='first-inner-carasol-textandstar-section'>
-                      <span className='inner-carasol-text-span'>Emman</span>
-                      <span className='inner-carasol-star-span'><img src={firstgroup} alt="logo" className='' /></span>
+                      <span className='inner-carasol-text-span'>Steve</span>
+                      <span className='inner-carasol-star-span'><img src={thirdgroup} alt="logo" className='' /></span>
                     </div>
                   </div>
 
