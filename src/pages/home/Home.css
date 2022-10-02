@@ -116,8 +116,8 @@ margin-left: 17px;
     margin-bottom: 14px;
 }
 .Main-second-carasol-component{
-    width: 329px !important;
-    height: 315px;
+    height: 53vh;
+    width: 29vw!important;
     border: 2px solid #FFFDFD;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
@@ -141,7 +141,7 @@ margin-left: 17px;
 .first-inner-carasol-component{
     display: flex;
     width: 100%;    
-    margin-bottom: 27px;
+    margin-bottom: 16px;
 }
 .first-inner-carasol-profile-section{
     width: 25%;

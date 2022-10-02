@@ -97,20 +97,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 .slidebtn {
-    border: 0.5px solid #8D624C33;
+    background: #8d624c33;
+    border: 0.5px solid #8d624c33;
+    border-radius: 29px;
+    color: #000;
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 5px 15px;
-    margin-top: 3px;
-    margin-bottom: 11px;
-    margin-left: 0;
-    margin-right: 6px;
-    background: #8D624C33;
-    text-decoration: none;
-    color: #000;
     font-size: 16px;
-    border-radius: 29px;
+    justify-content: space-between;
+    margin: 3px 13px 11px 0;
+    padding: 5px 15px;
+    text-decoration: none;
 }
 .messages-global-div{
     position: fixed;
