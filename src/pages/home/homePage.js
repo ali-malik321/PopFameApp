@@ -40,6 +40,7 @@ import SliderButton from './sliderButton';
 
 import qrcodeclient from "../../assets/globalAssets/qrcodeclient.svg"
 import qrcodeserviceprovider from "../../assets/globalAssets/qrcodeserviceprovider.svg"
+import Footer from '../../components/footer';
 
 
 
@@ -325,6 +326,7 @@ const HomePage = () => {
         </div>
 
       </div>
+      <Footer/>
 
     </>
   )

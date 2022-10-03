@@ -35,7 +35,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div style={{position:'fixed',zIndex:1, bottom: 10, right: 10}}>
-     <Link to='/'><img  src={messages} alt="logo" /></Link>
+     <Link to='/chat'><img  src={messages} alt="logo" /></Link>
       </div>
     </div>
   )

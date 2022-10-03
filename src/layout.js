@@ -19,6 +19,8 @@ import Signup from './pages/signup/signup'
 import ResetPassword from './pages/resetpassword/resetPassword'
 import BasicInformation from './pages/addToCartPages/BasicInformation/basicInformation'
 import Adressinformation from './pages/addToCartPages/adressInformation/adressInformation'
+import SideBar from './pages/chatsection/sideBar'
+import Messages from './pages/chatsection/Messages'
 
 
 const Layout = () => {
@@ -41,7 +43,9 @@ const Layout = () => {
                <Route exact path='/signup' element={<Signup/>}/> 
                <Route exact path='/resetpassword' element={<ResetPassword/>}/> 
                <Route exact path='/Basicinformation' element={<BasicInformation/>}/> 
-               <Route exact path='/addressinfo' element={<Adressinformation />}/> 
+               <Route exact path='/addressinfo' element={<Adressinformation />}/>
+               <Route exact path='/chat' element={<Messages/>}/>  
+               
 
 
                 </Routes>
@@ -50,7 +54,6 @@ const Layout = () => {
                 
                    
               </div>
-          <Footer />
           </BrowserRouter>
           {/* </ThemeProvider> */}
     </div>
