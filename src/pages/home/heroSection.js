@@ -4,6 +4,7 @@ import GroupBackground from "../../assets/globalAssets/GroupBackground.png"
 import mobileframe from "../../assets/globalAssets/mobileframe.png"
 import search from "../../assets/globalAssets/search.svg"
 import messages from "../../assets/globalAssets/messages.svg"
+import downarrow from "../../assets/globalAssets/seconddownarrow.svg"
 import { Link } from 'react-router-dom'
 
 
@@ -34,6 +35,10 @@ const HeroSection = () => {
             <img className='BackgroundGroup-img2' src={GroupBackground} alt="logo" />
         </div>
       </div>
+      <div className='second-herosection'>
+        <img src={downarrow} alt="logo" className='' />
+      </div>
+
       <div style={{position:'fixed',zIndex:1, bottom: 10, right: 10}}>
      <Link to='/chat'><img  src={messages} alt="logo" /></Link>
       </div>

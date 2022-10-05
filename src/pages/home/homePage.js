@@ -108,9 +108,7 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
-      <div className='second-herosection'>
-        <img src={downarrow} alt="logo" className='' />
-      </div>
+  
       <div className='Main-homepage-wrapper'>
 
         <div className='carasol-section'>
