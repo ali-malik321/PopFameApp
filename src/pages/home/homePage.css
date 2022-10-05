@@ -3,61 +3,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;1,200;1,300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-.hero-section-header-tag{
-    font-size: 49PX;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-family: 'Manrope', sans-serif;
+.hero-section-header-tag {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-family: Manrope,sans-serif;
+    font-size: 3vw;
     line-height: 1em;
-    max-width: 442px;
+    margin-block-end: 0;
+    text-align: initial;
+    margin-block-start: 0;
+    max-width: 30vw;
 }
-.hero-section-p-tag{
-    font-family: 'Montserrat', sans-serif;
-    max-width: 450px;
-    padding-top: 6%;
+.hero-section-p-tag {
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    max-width: 26vw;
+    padding-top: 4%;
+ padding-top: 6%;
 }
 .wrapper {
-        padding: 17vh 3vw; 
-           padding-bottom: 25px;
+    height: 85vh;
+    width: 100%;
+    margin-top: 15vh;
+    text-align: -webkit-center;
 }
 
 .hero-flex-section{
     display: flex;
-  width: 100%;
+  width: 90%;
 }
 .first-container {
-    width: 55%;
-    /* padding: 0% 2%; */
-    padding-top: 3%;
+    padding-top: 4%;
+    width: 53%;
+    text-align: initial;
 }
 .second-container {
-    width: 45%;
     position: relative;
+    width: 47%;
 }
 
 .BackgroundGroup-img1 {
     height: auto;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     position: absolute;
-    width: 42%;
+    width: 46%;
 }
 .BackgroundGroup-img2 {
     padding-left: 7vw;
     padding-top: 9vh;
-    width: 66%;
+    width: 73%;
 }
 .search {
     --tw-shadow: 4px 4px 27px 0px #0000003f;
-    --tw-shadow-colored: 4px 4px 27px 0px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-colored: 4px 4px 27px 0pxvar(--tw-shadow-color);
     background: #fff;
     border: 1px solid #aea6a6;
-    height: 36px;
     border-radius: 50px;
-    padding: 10px 5px;
-    margin-top: 11%;
-    width: 428px;
+    box-shadow: 0 0 #0000,0 0 #0000,var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    height: 36px;
     margin-left: 2%;
+    margin-top: 11%;
+    padding: 10px 5px;
+    width: 428px;
 }
 
 

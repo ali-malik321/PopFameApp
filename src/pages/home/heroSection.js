@@ -18,13 +18,15 @@ const HeroSection = () => {
         <div className='first-container'>
 
           <h3 className='hero-section-header-tag'>Quality Home Services, On Demand Plumbing</h3>
-          <p className='hero-section-p-tag'>Experienced,hand-picked Professionals to serve you at your doorstep</p>
+          <p className='hero-section-p-tag'>We Make Finding Home Services Smoother,Faster and Better.</p>
           <div class="search">
+            <form>
             <img className='search-img' src={search} alt="logo" />
             <input class="search-txt" type="text" name="" placeholder="Enter Here"/>
-            <a class="search-btn" href="/" >
+            <Link class="search-btn" to="/" >
               search
-            </a>
+            </Link>
+            </form>
 
           </div>
         </div>
@@ -39,9 +41,6 @@ const HeroSection = () => {
         <img src={downarrow} alt="logo" className='' />
       </div>
 
-      <div style={{position:'fixed',zIndex:1, bottom: 10, right: 10}}>
-     <Link to='/chat'><img  src={messages} alt="logo" /></Link>
-      </div>
     </div>
   )
 }

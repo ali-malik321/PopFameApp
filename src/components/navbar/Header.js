@@ -112,7 +112,7 @@ const Header = () => {
 export default Header
 
 const Container = styled.div`
-min-height:60px;
+min-height:15vh;
 position: fixed;
 background-color: #fff;
 display: flex;
@@ -128,7 +128,7 @@ z-index:1;
     font-weight:500;
     color:#000;
     text-transform:uppercase;
-    padding: 0 45px;
+    padding: 0 4vw;
     flex-wrap:nowrap;
 }
 `;
@@ -137,7 +137,7 @@ z-index:1;
 const RightMenu = styled.div`
 display: flex;
 align-items: center;
-gap: 2.5rem;
+gap: 3.5rem;
 
 .navbar-link{
     text-decoration:none;
