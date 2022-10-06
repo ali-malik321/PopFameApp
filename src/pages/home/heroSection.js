@@ -18,9 +18,9 @@ const HeroSection = () => {
         <div className='first-container'>
 
           <h3 className='hero-section-header-tag'>Quality Home Services, On Demand Plumbing</h3>
-          <p className='hero-section-p-tag'>We Make Finding Home Services Smoother,Faster and Better.</p>
-          <div class="search">
-            <form>
+          <p className='hero-section-p-tag'>We Make Finding Home Services Smoother, Faster and Better.</p>
+          
+            <form class="search">
             <img className='search-img' src={search} alt="logo" />
             <input class="search-txt" type="text" name="" placeholder="Enter Here"/>
             <Link class="search-btn" to="/" >
@@ -28,7 +28,6 @@ const HeroSection = () => {
             </Link>
             </form>
 
-          </div>
         </div>
 
         <div className='second-container'>

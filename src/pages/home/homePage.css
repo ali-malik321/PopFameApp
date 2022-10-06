@@ -86,23 +86,15 @@
     border: 2px solid #8d624c;
 }
 .search-img {
-    width: 20px;
-    height: auto;
-    padding-left: 11px;
-    padding-bottom: 0;
+    width: 2vw;
 }
 
 .search-txt {
     border: none;
-    background: none;
-    outline: none;
-    padding: -21px;
-    font-size: 17px;
-    transition: ease-in 0.4s;
-    line-height: 0px;
-    padding-top: 6px;
-    padding-left: 24px;
-    font-family: 'Open Sans', sans-serif;
+    border-radius: inherit;
+    flex: 1 1;
+    padding: 10px;
+    font-size: 22px;
 }
 .slidebtn {
     background: #8d624c33;
@@ -116,6 +108,13 @@
     margin: 3px 13px 11px 0;
     padding: 5px 15px;
     text-decoration: none;
+}
+.search{
+    border: 1px solid #e8eaed;
+    border-radius: 12px;
+    display: flex;
+    flex: 1 1;
+    padding: 2vh 1vw;
 }
 .messages-global-div{
     position: fixed;
