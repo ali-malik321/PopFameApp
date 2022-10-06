@@ -53,20 +53,7 @@
     padding-top: 9vh;
     width: 73%;
 }
-.search {
-    --tw-shadow: 4px 4px 27px 0px #0000003f;
-    --tw-shadow-colored: 4px 4px 27px 0pxvar(--tw-shadow-color);
-    background: #fff;
-    border: 1px solid #aea6a6;
-    border-radius: 50px;
-    box-shadow: 0 0 #0000,0 0 #0000,var(--tw-shadow);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
-    height: 36px;
-    margin-left: 2%;
-    margin-top: 11%;
-    padding: 10px 5px;
-    width: 428px;
-}
+
 
 
 
