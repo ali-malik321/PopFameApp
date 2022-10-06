@@ -117,11 +117,10 @@ const HomePage = () => {
 
             <img src={paint} alt="logo" className='first-image-container' />
 
-            <div class="first-search">
-              <img className='first-search-img' src={search} alt="logo" />
-              <input class="first-search-txt" type="text" name="" placeholder="Search Here" />
-
-            </div>
+            <form class="search">
+            <img className='search-img' src={search} alt="logo" />
+            <input class="search-txt" type="text" name="" placeholder="Enter Here"/>
+            </form>
           </div>
 
 
