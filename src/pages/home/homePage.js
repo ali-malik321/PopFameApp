@@ -120,6 +120,7 @@ const HomePage = () => {
             <form class="search">
             <img className='search-img' src={search} alt="logo" />
             <input class="search-txt" type="text" name="" placeholder="Enter Here"/>
+            
             </form>
           </div>
 

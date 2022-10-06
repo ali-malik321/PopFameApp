@@ -80,8 +80,8 @@
     border: none;
     border-radius: inherit;
     flex: 1 1;
-    padding: 10px;
     font-size: 22px;
+    padding: 10px 13px;
 }
 .search-btn {
     align-items: center;
@@ -90,24 +90,23 @@
     border-radius: 50px;
     color: #fff;
     display: flex;
-    height: 11vh;
-    justify-content: center;
     font-size: 25px;
+    height: 10vh;
+    justify-content: center;
     text-decoration: none;
     width: 8vw;
 }
 .search {
-    border: 1px solid #e8eaed;
-    border-radius: 37px;
-    display: flex;
-    flex: 1 1;
-    width: 34vw;
-    padding: 3px 5px 3px 24px;
     --tw-shadow: 4px 4px 27px 0px #0000003f;
     border: 1px solid #aea6a6;
+    border-radius: 37px;
     border-radius: 50px;
     box-shadow: 0 0 #0000,0 0 #0000,var(--tw-shadow);
+    display: flex;
+    flex: 1 1;
     margin-top: 11%;
+    padding: 9px 5px 3px 24px;
+    width: 34vw;
 }
 .messages-global-div{
     position: fixed;
