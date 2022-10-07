@@ -204,11 +204,11 @@ font-size: 19px;
     margin-block-end: 0;
     margin-block-start: 3px;
 }
-.inner-third-carasol-section > .slick-prev {
+.inner-third-carasol-section .slick-slider > .slick-prev {
     left: 0;
 }
 
-.inner-third-carasol-section > .slick-next {
+.inner-third-carasol-section .slick-slider > .slick-next {
     right: -15px;
 }
 

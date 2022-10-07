@@ -10,6 +10,8 @@ import facebooklogo from '../../assets/globalAssets/facebookfooterlogo.svg'
 import instagramlogo from '../../assets/globalAssets/instagramfooterlogo.svg'
 import twitterlogo from '../../assets/globalAssets/twitterfooterlogo.svg'
 import youtubelogo from '../../assets/globalAssets/youtubefooterlogo.svg'
+import messenger from '../../assets/globalAssets/messenger.svg'
+
 
 
 const Footer = () => {
@@ -95,6 +97,9 @@ const Footer = () => {
           </ul>
 
         </div>
+      </div>
+      <div className='message-component'>
+        <img src={messenger} alt='ddd' />
       </div>
     </div>
   )
