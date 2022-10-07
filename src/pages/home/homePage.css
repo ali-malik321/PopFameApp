@@ -130,12 +130,12 @@
 }
 
 
-.non-slider-section{
+.non-slider-section {
     display: flex;
-    margin-bottom: 30px;
-    margin-top: 60px;
-    padding-right: 25px;
-    padding-left: 25px;
+    margin-bottom: 3px;
+    margin-top: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .non-slider-text-section {
     width: 13%;
@@ -159,8 +159,10 @@
 
 /* last section */
 
-.last-landingpage-section{
+.last-landingpage-section {
     padding-top: 20px;
+    width: 100%;
+    height: 85vh;
 }
 
 .first-column-last-section {
