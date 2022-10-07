@@ -78,7 +78,9 @@ padding-top: 15px;
 
 
 .message-component{
+    bottom: 44px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    right: 10px;
+    width: 80%;
+    height: 100%;   
 }

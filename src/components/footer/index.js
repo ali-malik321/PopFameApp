@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
       </div>
         <div className='message-component'>
-        <Link className='' to='/'>
+        <Link className='' to='/chat'>
         <img src={messages} alt='ddd' />
         </Link>
         </div>
