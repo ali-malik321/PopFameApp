@@ -99,7 +99,9 @@ const Footer = () => {
         </div>
       </div>
         <div className='message-component'>
-          <img src={messages} alt='ddd' />
+        <Link className='' to='/'>
+        <img src={messages} alt='ddd' />
+        </Link>
         </div>
     </div>
   )
