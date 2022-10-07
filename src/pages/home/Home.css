@@ -205,11 +205,11 @@ font-size: 19px;
     margin-block-start: 3px;
 }
 .inner-third-carasol-section > .slick-prev {
-    left: -18px;
+    left: 0;
 }
 
 .inner-third-carasol-section > .slick-next {
-    right: 0px;
+    right: -15px;
 }
 
 
