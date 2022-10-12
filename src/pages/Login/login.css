@@ -28,7 +28,7 @@ font-weight: 100;
   border-radius: 40px;
   background-color: #FCF4F4;
   width: 27vw;
-  height: 4vh;
+  height: 7.5vh;
   padding-left: 25px;
   font-size: 20px;
 }
@@ -57,9 +57,10 @@ font-weight: 100;
   color: #fff;
   font-size: 18px;
   border: none;
-  margin-top: 38px 0 0 0;
   width: 29vw;
   height: 9vh;
+    margin: 0;
+    margin-top: 6vh;
 }
 .Register-p-tag{
   font-size: 18.5px;
@@ -96,7 +97,7 @@ font-weight: 100;
   content:" ";
   height: 2px;
   width: 130px;
-  background: #8D624C;
+  background: #9b8f8f;
   display: block;
   position: absolute;
   top: 50%;
